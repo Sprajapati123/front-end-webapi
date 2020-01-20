@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyMart</title>
+    <link rel = "icon" type = "image/png" href = "../../resources/img/logo.png">
+    <!-- Font awesome -->
+    <link href="../../resources/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="../../resources/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+    <link href="../../resources/css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <!-- Product view slider -->
+    <link rel="stylesheet" type="text/css" href="../../resources/css/jquery.simpleLens.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="../../resources/css/slick.css">
+    <!-- price picker slider -->
+    <link rel="stylesheet" type="text/css" href="../../resources/css/nouislider.css">
+    <!-- Theme color -->
+    <link id="switcher" href="../../resources/css/theme-color/default-theme.css" rel="stylesheet">
+    <!-- <link id="switcher" href="css/theme-color/bridge-theme.css" rel="stylesheet"> -->
+    <!-- Top Slider CSS -->
+    <link href="../../resources/css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
+
+    <!-- Main style sheet -->
+    <link href="../../resources/css/style.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+<body>
+
+    <!-- Start header section -->
+    <header id="aa-header">
+        <!-- start header top  -->
+        <div class="aa-header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-header-top-area">
+                            <!-- start header top left -->
+                            <div class="aa-header-top-left">
+
+                                <!-- start currency -->
+                                <div class="aa-currency">
+
+                                </div>
+                                <!-- / currency -->
+                                <!-- start cellphone -->
+                                <div class="cellphone hidden-xs">
+                                    <p><span class="fa fa-phone"></span>9860339850,9808283469</p>
+                                </div>
+                                <!-- / cellphone -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / header top  -->
+
+        <!-- start header bottom  -->
+        <div class="aa-header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-header-bottom-area">
+                            <!-- logo  -->
+                            <div class="aa-logo">
+                                <!-- Text based logo -->
+                                <a href="index.html">
+                                    <span class="fa fa-shopping-cart"></span>
+                                    <p><strong>My Mart</strong> <span>A easiest solution for shopping</span></p>
+                                </a>
+                                <!-- img based logo -->
+                                <!-- <a href="index.html"><img src="img/logo.jpg" alt="logo img"></a> -->
+                            </div>
+                            <!-- / logo  -->
+                            <!-- cart box -->
+                            <div class="aa-cartbox">
+                                <a class="aa-cart-link" href="mycart.html">
+                                    <span class="fa fa-shopping-basket"></span>
+                                    <span class="aa-cart-title">SHOPPING CART</span>
+                                    <span class="aa-cart-notify">New</span>
+                                </a>
+                                <div class="aa-cartbox-summary">
+                                    <ul>
+                                        <li>
+                                            <!--                                        <a class="aa-cartbox-img" href="#"><img src="img/woman-small-2.jpg" alt="img"></a>-->
+                                            <div class="aa-cartbox-info">
+                                                <h4><a href="#">Product Name</a></h4>
+                                                <p>1 x $250</p>
+                                            </div>
+                                            <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
+                                        </li>
+                                        <li>
+                                            <!--                                        <a class="aa-cartbox-img" href="#"><img src="img/woman-small-1.jpg" alt="img"></a>-->
+                                            <div class="aa-cartbox-info">
+                                                <h4><a href="#">Product Name</a></h4>
+                                                <p>1 x $250</p>
+                                            </div>
+                                            <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
+                                        </li>
+                                        <li>
+                      <span class="aa-cartbox-total-title">
+                        Total
+                      </span>
+                                            <span class="aa-cartbox-total-price">
+                        $500
+                      </span>
+                                        </li>
+                                    </ul>
+                                    <a class="aa-cartbox-checkout aa-primary-btn" href="checkout.html">Checkout</a>
+                                </div>
+                            </div>
+                            <!-- / cart box -->
+                            <!-- search box -->
+                            <div class="aa-search-box">
+                                <form action="">
+                                    <input type="text" name="search" id="search" onkeyup="myFunction()" placeholder="Search here eg. Cap ">
+                                    <button type="submit"><span class="fa fa-search"></span></button>
+                                </form>
+                                <!-- / search box -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / header bottom  -->
+    </header>
+    <!-- / header section -->
+</header>
+<!-- / header section -->
+<!-- menu -->
+<section id="menu">
+    <div class="container">
+        <div class="menu-area">
+            <!-- Navbar -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <!-- Left nav -->
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="help.html">Help</a></li>
+                        <li><a href="mycart.html" id="mycart">My Cart</a></li>
+                        <li><a href="myaccount.html" id="myaccount">Account</a></li>
+                        <li><a href="../login.html" id="logout">Logout</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- popular section -->
+<section id="aa-popular-category">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="aa-popular-category-area">
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <!-- Start men popular category -->
+                            <div class="tab-pane fade in active" id="popular">
+                                <ul class="aa-product-catg aa-popular-slider" id="itemdetails">
+                                    <!-- start single product item -->
+
+                                </ul>
+
+                            </div>
+                            <!-- / popular product category -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Place your order</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form accept-charset="UTF-8" id="AddCart" enctype="multipart/form-data" method="POST" role="form">
+
+                    <fieldset>
+                        <p id="added">
+
+                        </p>
+                        <div class="form-group">
+                            <input class="form-control" hidden readonly required placeholder="username" name="uname"  id="uname" type="text">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" hidden readonly required placeholder="userid" name="uid"  id="uid" type="text">
+                        </div>
+
+
+                        <div class="form-group">
+                            <input class="form-control" readonly hidden required placeholder="itemid" name="iid"  id="iid" type="text">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" readonly required placeholder="Item name" name="iname" id="iname" type="text">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" readonly required placeholder="Item price" name="iprice" id="iprice" type="text" value="">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" readonly required placeholder="Item description" name="idescription" id="idescription" type="text" value="">
+                        </div>
+
+
+                        <div class="form-group">
+                            <select disabled name="icategory" required id="icategory" class="form-control">
+                                <option value="clothes">Clothes</option>
+                                <option value="shoes">Shoes</option>
+                                <option value="wearable">Wearable</option>
+                                <option value="device">Devices and Technology</option>
+                                <option value="perfumes">Perfumes</option>
+                                <option value="sunglass">Sun glasses</option>
+                                <option value="electronc">Electronic</option>
+                            </select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-sm-3 col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" required placeholder="city" name="city" id="city" type="text" value="">
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3 col-md-6">
+                                <div class="form-group">
+                                <input class="form-control" required placeholder="Street" id="street" name="street" type="text" value="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" required placeholder="Quantity" name="quantity" onkeyup="myFunction2()"  id="quantity" type="text" value="">
+                        </div>
+
+
+                        <p id="total" style="text-align: center"></p>
+                        <p id="demo" style="text-align: center"></p>
+
+
+                        <input class="btn btn-lg btn-primary btn-block" type="submit" id="confirmcart" value="Place your Order">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+
+<!-- Footer -->
+<section id="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.gmail.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            </hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.mymart.com" target="_blank">Sandis prajapati</a></p>
+            </div>
+            </hr>
+        </div>
+    </div>
+</section>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="../../resources/js/bootstrap.js"></script>
+<script type="text/javascript" src="../../resources/js/jquery-3.3.0.min.js"></script>
+
+<script type="text/javascript" src="../../resources/js/userindex.js"></script>
+<script type="text/javascript" src="../../resources/js/booking.js"></script>
+<script type="text/javascript" src="../../resources/js/myaccount.js"></script>
+<script type="text/javascript" src="../../resources/js/logout.js"></script>
+
+<script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("search");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("itemdetails");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+<script>
+    function myFunction2() {
+
+        var a= $('#iprice').val();
+        var b=$('#quantity').val();
+
+        var c=a*b;
+
+        $('#total').html('Total='+c)
+
+
+        var x, text;
+
+        // Get the value of the input field with id="numb"
+        x = document.getElementById("quantity").value;
+
+        // If x is Not a Number or less than one or greater than 10
+        if (isNaN(x) || x < 1 || x > 10) {
+            text = "Quantity not valid";
+        } else {
+           text = null;
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+</script>
+
+</body>
+</html>
+
